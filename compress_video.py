@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Compress a video to under 50 MB using FFmpeg with H.265, CRF 28, slow preset.
+Compress a video to under 50 MB using FFmpeg with H.264, CRF 23, slow preset.
 Uses subprocess to call ffprobe and ffmpeg.
 """
 
@@ -23,7 +23,7 @@ def require_ffmpeg() -> None:
 # Paths
 SRC = Path("/Users/myhomefolder/Downloads/Hardware_AWG/Meeting materials/2025-08-28/Hardware AWG meeting - 2025_08_28 07_50 PDT - Recording.mp4")
 PROJECT_DIR = Path("/Users/myhomefolder/my-development/compression")
-OUTPUT = PROJECT_DIR / "Hardware_AWG_2025_08_28_compressed.mp4"
+OUTPUT = PROJECT_DIR / "Hardware_AWG_2025_08_28_compressed_h264.mp4"
 TARGET_MB = 50
 AUDIO_KBPS = 128  # reserve for audio in bitrate calculation
 
@@ -68,9 +68,9 @@ def main() -> None:
         "ffmpeg",
         "-y",
         "-i", str(SRC),
-        "-c:v", "libx265",
+        "-c:v", "libx264",
         "-preset", "slow",
-        "-crf", "28",
+        "-crf", "23",
         "-maxrate", f"{video_max_kbps}k",
         "-bufsize", f"{bufsize_kbps}k",
         "-c:a", "aac",
@@ -79,7 +79,7 @@ def main() -> None:
         str(OUTPUT),
     ]
 
-    print("Running FFmpeg (H.265, CRF 28, slow preset)...")
+    print("Running FFmpeg (H.264, CRF 23, slow preset)...")
     result = subprocess.run(ffmpeg_cmd)
     if result.returncode != 0:
         print("FFmpeg failed.", file=sys.stderr)
