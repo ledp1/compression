@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Compress a video to under 25 MB using FFmpeg with H.264 (libx264), CRF 30,
-slow preset, scale to 480p. Preserves audio. Uses subprocess for ffprobe/ffmpeg.
+Compress a video to under 50 MB using FFmpeg with H.264, CRF 23, slow preset.
+Uses subprocess to call ffprobe and ffmpeg.
 """
 
 import shutil
@@ -24,8 +24,8 @@ def require_ffmpeg() -> None:
 SRC = Path("/Users/myhomefolder/Downloads/Hardware_AWG/Meeting materials/2025-08-28/Hardware AWG meeting - 2025_08_28 07_50 PDT - Recording.mp4")
 PROJECT_DIR = Path("/Users/myhomefolder/my-development/compression")
 OUTPUT = PROJECT_DIR / "Hardware_AWG_2025_08_28_compressed_h264.mp4"
-TARGET_MB = 25
-AUDIO_KBPS = 64  # reserve for audio (64k keeps total under 25 MB for long videos)
+TARGET_MB = 50
+AUDIO_KBPS = 128  # reserve for audio in bitrate calculation
 
 
 def get_duration_seconds(path: Path) -> float:
@@ -53,12 +53,12 @@ def main() -> None:
     duration = get_duration_seconds(SRC)
     print(f"Duration: {duration:.1f} s")
 
-    # Max total size 24 MB to stay under 25 MB
-    target_bits = 24 * 8 * 1024 * 1024
+    # Max total size 48 MB to stay under 50 MB
+    target_bits = 48 * 8 * 1024 * 1024
     total_kbps = (target_bits / 1000) / duration
     video_max_kbps = int(total_kbps - AUDIO_KBPS)
-    if video_max_kbps < 40:
-        video_max_kbps = 40
+    if video_max_kbps < 100:
+        video_max_kbps = 100
     # buf size ~2× rate for VBV
     bufsize_kbps = video_max_kbps * 2
 
@@ -70,17 +70,16 @@ def main() -> None:
         "-i", str(SRC),
         "-c:v", "libx264",
         "-preset", "slow",
-        "-crf", "30",
-        "-vf", "scale=-2:480",
+        "-crf", "23",
         "-maxrate", f"{video_max_kbps}k",
         "-bufsize", f"{bufsize_kbps}k",
         "-c:a", "aac",
-        "-b:a", "64k",
+        "-b:a", "128k",
         "-movflags", "+faststart",
         str(OUTPUT),
     ]
 
-    print("Running FFmpeg (H.264 libx264, CRF 30, 480p, slow preset)...")
+    print("Running FFmpeg (H.264, CRF 23, slow preset)...")
     result = subprocess.run(ffmpeg_cmd)
     if result.returncode != 0:
         print("FFmpeg failed.", file=sys.stderr)
