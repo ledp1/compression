@@ -1,0 +1,629 @@
+Meeting transcript (with timestamps, final refinements)
+Source: /Users/myhomefolder/Downloads/Hardware_AWG/Meeting materials/2025-08-28/Hardware AWG meeting - 2025_08_28 07_50 PDT - Recording.mp4
+Refined: TechPort, cell-drop, Physical Sciences Data Archive; acronyms capitalized.
+
+---
+
+[00:00:00.000 - 00:00:02.720] later on and we can share the recording with others.
+
+[00:00:02.720 - 00:00:03.560] Okay.
+
+[00:00:03.560 - 00:00:07.400] So like it sounds like Aaron would be perfect to help on sort of the,
+
+[00:00:07.400 - 00:00:13.200] well, besides the manuscript also just like the data standards and like the entry level stuff.
+
+[00:00:13.200 - 00:00:15.600] I mean, I have other ideas too, just on that side.
+
+[00:00:15.600 - 00:00:20.800] It was like there's making sure like, because OSDR already has all these payload records
+
+[00:00:20.800 - 00:00:24.800] and all this biological data and all this other environmental telemetry.
+
+[00:00:24.800 - 00:00:29.920] So making sure that the ontologies and then the data system structure like string,
+
+[00:00:30.080 - 00:00:34.160] versus numeric, those types of questions and like the nomenclature,
+
+[00:00:34.160 - 00:00:38.720] making sure that all that's dialed in so that we can link it directly to all the other data.
+
+[00:00:38.720 - 00:00:43.120] Like it would be weird to make it different than the rest of OSDR.
+
+[00:00:43.120 - 00:00:45.520] So we can take care of a lot of that.
+
+[00:00:45.520 - 00:00:51.520] And then, yeah, Aaron Persaud, you actually read my mind on PSI because,
+
+[00:00:51.520 - 00:00:54.800] already physical science is because there's a bunch of,
+
+[00:00:55.520 - 00:00:59.200] there's several people I'm now realizing, Jessica, that aren't part of the AWG,
+
+[00:00:59.200 - 00:01:00.080] that we need to pull in.
+
+[00:01:01.200 - 00:01:04.480] They're the physical sciences people at Marshall and Kelen.
+
+[00:01:06.400 - 00:01:08.800] Because they started a user group.
+
+[00:01:08.800 - 00:01:12.160] They're not calling it an AWG yet, but they're getting close.
+
+[00:01:12.160 - 00:01:16.320] So I think, and Aaron, if you, it's a, it sounds like you're fluids,
+
+[00:01:16.320 - 00:01:25.120] but there's combustion, there's cell, what's that cell-drop fluid, shear cell-drop group.
+
+[00:01:25.120 - 00:01:28.800] There's, there's all these other domains and physical sciences that we need to pull into this
+
+[00:01:28.800 - 00:01:30.720] later on. So yeah, cool.
+
+[00:01:31.440 - 00:01:34.160] By user group, you mean sort of on experimentation or,
+
+[00:01:35.280 - 00:01:38.640] and they're sort of getting together and meeting about.
+
+[00:01:38.640 - 00:01:40.880] There's a physical sciences informatics.
+
+[00:01:40.880 - 00:01:42.400] I don't know if you've heard of that before.
+
+[00:01:42.400 - 00:01:47.440] It's sort of like the sister repository to GeneLab, Physical Sciences Data Archive,
+
+[00:01:47.440 - 00:01:49.200] but it's purely physical sciences.
+
+[00:01:50.000 - 00:01:54.640] They don't have quite the level of thorough data standards yet,
+
+[00:01:55.600 - 00:01:57.920] but they do have a couple hundred data sets in there,
+
+[00:01:57.920 - 00:02:00.000] which is great. Although some of the data sets are,
+
+[00:02:01.680 - 00:02:02.640] they're getting there, right?
+
+[00:02:02.640 - 00:02:08.080] They're trying to standardize all of physical sciences, which is hard to say the least.
+
+[00:02:08.080 - 00:02:12.720] So, but, so they have a user group around the data repository,
+
+[00:02:12.720 - 00:02:17.040] which is becoming a fully fledged AWG because they've,
+
+[00:02:17.040 - 00:02:21.040] they've, yeah, so we just need to pull those people into this group to help out.
+
+[00:02:21.040 - 00:02:24.160] But yeah, because Aaron, this is a monumental task you're talking about,
+
+[00:02:24.160 - 00:02:26.480] which is amazing if you'd be interested to support
+
+[00:02:28.000 - 00:02:30.480] and flush out some of these records so we can get used.
+
+[00:02:30.480 - 00:02:31.520] But yeah.
+
+[00:02:31.520 - 00:02:35.040] And I can also say that through BPS,
+
+[00:02:35.040 - 00:02:42.000] because this project has been funded by BPS through a grant as part of the division,
+
+[00:02:43.120 - 00:02:45.200] I have been connected with some of the physical sciences,
+
+[00:02:45.200 - 00:02:46.880] you know, the programmatic leads,
+
+[00:02:46.880 - 00:02:50.480] and they've gotten me two or three people at centers who are like,
+
+[00:02:51.040 - 00:02:54.080] now obliged to help out in the physical sciences.
+
+[00:02:54.080 - 00:02:59.040] So, so we do have some investment, but just haven't done much in that area.
+
+[00:02:59.040 - 00:03:03.360] So, so, but I do have, you know, names of people who've signed up to help out.
+
+[00:03:03.360 - 00:03:08.720] So that might be something that follow up on, on separately and connect.
+
+[00:03:08.720 - 00:03:13.840] Yeah, maybe with Ryan and Aaron, and you guys can clue me into who I should contact.
+
+[00:03:14.800 - 00:03:20.080] On that side, I can pull in the folks who were designated by NASA to help out as well.
+
+[00:03:20.080 - 00:03:25.440] And maybe we can just get you guys to look at the instruments that we already have and make sure
+
+[00:03:25.440 - 00:03:31.680] that, you know, tell us what instruments we need, help us get more information on, on, on that area.
+
+[00:03:34.640 - 00:03:39.360] Okay. Let me make sure that I'm, I'm.
+
+[00:03:39.360 - 00:03:40.960] You heard of TechPort, Jessica.
+
+[00:03:40.960 - 00:03:41.200] Yes.
+
+[00:03:42.240 - 00:03:43.440] And we have not mapped.
+
+[00:03:43.440 - 00:03:44.720] Okay. So that's another great.
+
+[00:03:44.720 - 00:03:46.640] So, so now we're kind of, I'm going to actually,
+
+[00:03:46.640 - 00:03:48.000] I'm going to go back to sharing my screen,
+
+[00:03:48.000 - 00:03:51.520] because I always benefit from having something written to look at.
+
+[00:03:53.200 - 00:03:54.560] Anyway, from anyone who thinks like me.
+
+[00:03:55.440 - 00:03:59.440] So map entries to TechPort.
+
+[00:03:59.440 - 00:04:01.760] And I think as we've been going, and every time we've gotten,
+
+[00:04:01.760 - 00:04:07.520] I've gotten another list of really great suggestions of things that we should try implementing.
+
+[00:04:09.200 - 00:04:15.680] And so we are regarding, so going back, this kind of relates to, to Aaron's earlier question about,
+
+[00:04:15.680 - 00:04:18.720] like, if I want, if I'm interested in a facility and want to know, like,
+
+[00:04:18.720 - 00:04:20.320] what are the experiments that have been done in there?
+
+[00:04:20.320 - 00:04:24.560] And then how can I figure out sort of which types of experiments and like what,
+
+[00:04:24.560 - 00:04:27.200] you know, which fluids have been, have been looked at, that kind of thing.
+
+[00:04:27.840 - 00:04:29.760] Or what payloads have been put in that facility.
+
+[00:04:30.800 - 00:04:39.600] So a couple of things that are, we are planning to map into OSDR, anything that is already in OSDR
+
+[00:04:39.600 - 00:04:42.960] as like a payload, or as an experiment, or as a data set,
+
+[00:04:43.680 - 00:04:48.080] should ultimately somehow get mapped to the hardware linked to the hardware database.
+
+[00:04:49.200 - 00:04:54.400] So there will be linkage there that we still have to work out the structure of that linkage.
+
+[00:04:56.080 - 00:04:58.720] And maybe if we know what kind of research questions people want to pursue,
+
+[00:04:58.720 - 00:05:03.200] we can make it such that you can pursue that easily without having to like,
+
+[00:05:03.200 - 00:05:08.320] go through five different linkages to get from the hardware to the thing that was done in that hardware.
+
+[00:05:08.320 - 00:05:12.720] And then that relates also to TechPort.
+
+[00:05:12.720 - 00:05:17.440] We will have linkages to the Space Life Sciences Library at KSC for literature.
+
+[00:05:17.440 - 00:05:22.000] We'll have linkages to OSDR for data sets and or payloads.
+
+[00:05:22.000 - 00:05:24.400] And then linking to TechPort is great.
+
+[00:05:24.400 - 00:05:28.160] You know, I, to TechPort entries is a great idea.
+
+[00:05:28.160 - 00:05:31.760] And maybe we just add that field, but then we need to figure out how to populate it.
+
+[00:05:33.040 - 00:05:36.800] Or you might be mining entries from TechPort, I guess is my plan.
+
+[00:05:36.800 - 00:05:40.320] I don't know if you necessarily need to map everything to every other database that's been
+
+[00:05:40.320 - 00:05:44.000] sort of wild. But, but just some of this will actually, I think,
+
+[00:05:44.880 - 00:05:48.400] be content you might want to mine to.
+
+[00:05:48.400 - 00:05:55.760] Yeah. So do, yeah. And I think, well, okay, that's something I think I would need some help on
+
+[00:05:55.760 - 00:06:02.880] in figuring out is their information on TechPort that we, yeah, or are there entries in TechPort?
+
+[00:06:02.880 - 00:06:07.520] Yeah. What's an effective way of mining TechPort for entries, especially if we are focusing
+
+[00:06:07.520 - 00:06:12.320] quite focused on right now, just because we need to constrain scope, we're quite focused to
+
+[00:06:13.280 - 00:06:18.720] instruments that have a flight history that have flown or that are flight qualified.
+
+[00:06:18.720 - 00:06:24.480] This is, this is what we did. If you go to TechPort and you sort by TRL above seven,
+
+[00:06:25.520 - 00:06:30.880] anything that's flown and that will give you access to everything that's been flown.
+
+[00:06:30.880 - 00:06:35.440] And so that'll give you a nice list. I think our list was, you know, on the order of maybe
+
+[00:06:35.440 - 00:06:41.280] 250 entries within this category. And then we had a bunch of metadata on top.
+
+[00:06:42.640 - 00:06:45.680] But if you can download nice, nice simple Excel file.
+
+[00:06:47.440 - 00:06:52.960] That's too smart. I love it. Just so that I know the landscape though, Aaron, so you, I, you know,
+
+[00:06:54.720 - 00:06:58.320] like you said, I don't want to compete, right? So if you have a database that's, you're working
+
+[00:06:58.320 - 00:07:03.200] on a different database hosted somewhere else on a different set of, different set of instruments
+
+[00:07:03.200 - 00:07:09.440] or different subject matter or like, it'll be niche here. We focused on biomedical technologies.
+
+[00:07:10.080 - 00:07:15.920] So we focused on biomedical. We discovered that lots is missing from TechPort. TechPort is really
+
+[00:07:15.920 - 00:07:24.400] good from like, we would say 2011 onward, maybe we get some good stuff, but like a lot of the
+
+[00:07:24.480 - 00:07:30.720] historical stuff has been sort of lost, I would say. So there's a lot of like backfilling that
+
+[00:07:30.720 - 00:07:36.160] that would maybe need to go. That's just my opinion. You know, so ignore as needed. But
+
+[00:07:38.880 - 00:07:44.720] Okay. And thank you. And actually biomedical is, is, is very much an area that we're not
+
+[00:07:44.720 - 00:07:48.320] focusing on for this database. It's we're trying to do fundamental research here and
+
+[00:07:48.320 - 00:07:52.080] mostly non human related. Oh, Kristen had a hand up.
+
+[00:07:53.440 - 00:07:59.520] I did. Hi. Sorry. TechPort is relatively new to me, but I am just curious, because TechPort is
+
+[00:07:59.520 - 00:08:05.760] behind, you know, you need to log in. Are we sure that everything that's there can be made public
+
+[00:08:05.760 - 00:08:11.280] on this hardware? Because this hardware database will be public, right? Yes. That is another thing
+
+[00:08:11.280 - 00:08:17.120] I forgot to introduce. Yes. I think TechPort requires login because there is some
+
+[00:08:18.960 - 00:08:24.560] like TechPort to me is, is I think so. Most of the data in there is just technology readiness
+
+[00:08:24.560 - 00:08:30.080] level and it's date. There's not a ton of metadata associated with easy pulling from that database.
+
+[00:08:30.080 - 00:08:36.560] It's more just like a check, I would say. Okay. That's again, just my opinion.
+
+[00:08:38.240 - 00:08:44.480] Yeah. Okay. And we would have to find metadata elsewhere, but it's a great place to figure out
+
+[00:08:44.480 - 00:08:52.000] what's TRL seven and above in our area. Okay. We're actually going to, so we have about 15
+
+[00:08:52.000 - 00:08:59.520] minutes left. And I think a great outcome of this meeting would be to have have some names on things
+
+[00:08:59.520 - 00:09:06.720] that, you know, people who are willing to take a few things forward. So any folks who are interested
+
+[00:09:07.040 - 00:09:15.120] in the, so yes, George, go ahead. Before we go on and I kind of floated, but I had an idea
+
+[00:09:15.120 - 00:09:22.560] in the chat. So in terms of a database, and we're talking about the hardware, at the end of the day,
+
+[00:09:22.560 - 00:09:28.880] the hardware will produce some data. And then that data needs to be analyzed from the analysis
+
+[00:09:28.880 - 00:09:36.240] perspective. It's always good to figure out what kind of data format, but do the results come out
+
+[00:09:36.240 - 00:09:41.120] and what are the files that are generated? How can these actually be analyzed downstream?
+
+[00:09:41.680 - 00:09:47.120] Even if you're planning an experiment ahead, you know, you need to know how am I going to deal
+
+[00:09:47.120 - 00:09:54.400] with the data that comes out. And that typically is not addressed. And from the analysis perspective,
+
+[00:09:54.400 - 00:09:59.040] you get data and you don't know what does it represent? What's this file format? What's in
+
+[00:09:59.040 - 00:10:04.080] the files? How do I get started with it? Especially if it's a proprietary format
+
+[00:10:04.800 - 00:10:10.160] and things like that. So I think that would be useful information to have for all hardware
+
+[00:10:10.880 - 00:10:19.040] that gets slow. So that's one idea of things that can be included in the database. And then
+
+[00:10:21.360 - 00:10:29.680] different thought regarding an API and actually having access to the database. And I was wondering
+
+[00:10:29.680 - 00:10:36.080] if that's going to be in the works or if that's going to become part of the OSDR API?
+
+[00:10:38.480 - 00:10:45.360] This is a good question. Probably, but I need to check. I actually need to check with
+
+[00:10:47.920 - 00:10:56.160] our actual OSDR folks on what the plan is. And I'll bring this up. I mean, I think it makes
+
+[00:10:56.160 - 00:11:10.640] a good sense. Just a quick question. You're the right person to answer that. Well, I'm probably not.
+
+[00:11:11.520 - 00:11:16.160] I don't make those types of decisions. But you know, like, I would also, when you have that
+
+[00:11:16.160 - 00:11:22.240] conversation, probably, Daniel or John asked them specifically how they imagine this hardware
+
+[00:11:22.240 - 00:11:30.480] database will be linked to either our existing hardware pages or data sets because I wouldn't
+
+[00:11:30.480 - 00:11:35.360] want, I think we should understand that kind of upfront. And I know that some of that will be
+
+[00:11:35.360 - 00:11:41.760] funding specific. And I had been told that maybe they wouldn't be connected, but I would love for
+
+[00:11:41.760 - 00:11:46.160] them to be connected. So I hope that that was incorrect. And that we can get everything as
+
+[00:11:46.160 - 00:11:51.520] interconnected as possible, just in my benefit, the project to get some clarification on that
+
+[00:11:51.520 - 00:12:00.000] earlier. Yeah. Because I had this vision of everything being maximally interconnected. And
+
+[00:12:00.000 - 00:12:04.000] I guess interconnected can mean different things. And so I think, and maybe I don't fully understand
+
+[00:12:04.000 - 00:12:08.400] all of the different ways that things can be connected in OSDR. So you're right. Absolutely, I should.
+
+[00:12:09.040 - 00:12:20.320] Okay. To clear that up for maximum usability. Yeah.
+
+[00:12:22.560 - 00:12:27.440] Yeah. But that's Daniel two weeks ago. This is going to be part of OSDR.
+
+[00:12:28.560 - 00:12:35.440] So, you know, it'll be its own thing, of course, but it's definitely going to be weaved into everything,
+
+[00:12:35.520 - 00:12:43.200] which unless there was some wild something wildly off, that was that was why this AWG was stood up
+
+[00:12:43.200 - 00:12:48.960] was because it's time to get all the structures and focuses. One thing I sort of realized through
+
+[00:12:48.960 - 00:12:54.480] this all just because that they're, I think we're mixing up ontology questions. Yeah, which are like,
+
+[00:12:54.480 - 00:12:59.120] which is ontology is going to be a bit hard. Because I don't know how many sort of engineering
+
+[00:12:59.120 - 00:13:04.000] related ontologies there are. Maybe it's not going to be hard, actually. I don't know. I hadn't looked
+
+[00:13:04.000 - 00:13:09.760] into like standard ontologies beyond life sciences. And then but and that's different than I think what
+
+[00:13:09.760 - 00:13:17.360] I raised last time of what we call configurations, sort of what like Aaron was talking about of like,
+
+[00:13:18.000 - 00:13:26.320] if you report data, if you have a column that's age, that shouldn't if and that's in number of years,
+
+[00:13:26.880 - 00:13:33.840] that should always be a numerical number, right versus like and so or it's sort of what George
+
+[00:13:34.000 - 00:13:40.640] was talking about, a configuration for the data format so that if this device always pushes out,
+
+[00:13:41.760 - 00:13:49.840] I don't know, movie files dot move that there's a standard because eventually we're going to want
+
+[00:13:49.840 - 00:13:54.720] hardware data to be comparable. But if you don't have these sort of configuration standards for
+
+[00:13:54.720 - 00:13:59.440] one hardware data set is ingested and made public, then it's going to be hard to do meta
+
+[00:13:59.440 - 00:14:05.040] analysis later. And I'm now sort of realizing that ontology and these configurations for the
+
+[00:14:05.680 - 00:14:10.880] formatting standards are really two different things to really expedite the usage on the
+
+[00:14:11.600 - 00:14:17.040] user's end is this the whole purpose of configurations. So I think until that I didn't
+
+[00:14:17.040 - 00:14:23.120] realize that there were two different things really hanging up. Yeah, go ahead, Aaron. I think
+
+[00:14:23.680 - 00:14:29.280] when we look through the the TechPort data, there's only like there's a lot of entries, but
+
+[00:14:29.280 - 00:14:35.360] generally they fall into certain categories like diagnostics will report readouts, right, and
+
+[00:14:35.360 - 00:14:41.840] therefore you generally get time series data, right, so you can make assumptions on this. I think
+
+[00:14:41.840 - 00:14:45.680] the thing that would be really, really sexy and really, really cool. I've said this before and
+
+[00:14:45.680 - 00:14:51.040] I'll say it again, I'm going to keep saying it until I'm really asked to not say it is the it's less
+
+[00:14:51.040 - 00:14:59.600] on ontological and more hardware CAD files. So like all CAD files on every CAD program compile to
+
+[00:14:59.600 - 00:15:07.360] step. Yeah, the best ones, all the the solid works ones, the rhino files, like they will all compile
+
+[00:15:07.360 - 00:15:13.680] to steps or assemblies. And there's a lot of really nice shape calculations that can be done
+
+[00:15:14.320 - 00:15:19.840] from these downstream. And you can start playing with, you know, like sort of like building models
+
+[00:15:19.840 - 00:15:27.040] on top of the data. And so it's less ontological and more I have a technology, will it fit in a
+
+[00:15:27.040 - 00:15:34.640] place in space, in space, in space, in space, right. And I think that's where this the system is
+
+[00:15:34.640 - 00:15:43.760] really powerful. So it's less ontological and more physically located. That's my, that's my comment.
+
+[00:15:44.640 - 00:15:44.960] Yeah,
+
+[00:15:44.960 - 00:15:50.000] technologies will come from the data, will come from whatever data you have categorized.
+
+[00:15:50.000 - 00:15:55.200] That's really interesting. So when I had thought about ontology, it really was for
+
+[00:15:56.000 - 00:16:04.000] categorizing like what is this instrument, mostly in terms of what it does, but maybe also partly
+
+[00:16:04.000 - 00:16:10.400] in terms of the shape and size and and where it can go and that kind of thing. But you know, a large
+
+[00:16:10.400 - 00:16:16.080] part of that would be functional. I was trying any dance here, maybe he can chime in, but like I
+
+[00:16:16.080 - 00:16:20.160] was talking with Jack about this earlier this week, and he's he he's sort of talked me out of this
+
+[00:16:20.160 - 00:16:24.560] effort, and just in that it could go on for a very long time if we tried to do this. And I'm
+
+[00:16:24.560 - 00:16:31.680] I'm actually I'd love to hear if anyone thinks that a structured categorization, this really would
+
+[00:16:31.680 - 00:16:39.680] just be for categorizing spaceflight hardware and organizing the the the types of hardware into,
+
+[00:16:39.760 - 00:16:44.800] you know, their relationships, whether that's even a useful thing, because it could be a way
+
+[00:16:44.800 - 00:16:49.920] to spend a lot of time on something that is not the most useful part of this database. And
+
+[00:16:49.920 - 00:16:54.960] perhaps we spend more time on, you know, getting the getting the word out there in the manuscript,
+
+[00:16:55.680 - 00:17:00.240] figuring I think maybe a third a second, it sounds like it's from this group, a second,
+
+[00:17:00.880 - 00:17:06.800] you know, subgroup project could be have to do with, I'm with the, you know, the
+
+[00:17:07.360 - 00:17:16.720] I'm the usability of the data, like the the formatting of the of the data. And then, and then
+
+[00:17:16.720 - 00:17:21.600] third, you know, to get some folks who are interested in being specialists in certain groups
+
+[00:17:21.600 - 00:17:29.520] and just adopting those groups. thoughts on that does anyone want to advocate for I kind of want
+
+[00:17:29.920 - 00:17:33.600] I'm good, I'm likely to cross this off. Does anyone thinks that it's important?
+
+[00:17:38.000 - 00:17:45.040] Okay, Jessica, this is Dan. Yeah, I think you definitely want to get down to the instance level
+
+[00:17:45.040 - 00:17:51.600] with the data level for these hardware pieces. And if you're going to do all this work at an
+
+[00:17:51.600 - 00:17:59.280] ontology level, oftentimes, you're not putting in instances of data level stuff into the ontology.
+
+[00:17:59.280 - 00:18:07.360] Unless it's a one of a kind thing, you know. So I think you should look at like how much of this
+
+[00:18:07.360 - 00:18:16.000] hardware is common across many different instances and apology wouldn't really serve the needs that
+
+[00:18:16.000 - 00:18:21.360] well, versus how much are one of a kind and maybe you want to put them into an ontology. But
+
+[00:18:23.520 - 00:18:28.880] that's my thought on that. Actually, I'm not maybe I'm not fully sure I understand that. So
+
+[00:18:28.880 - 00:18:36.000] on how many of these instruments are one of a kind versus. Yeah, so it
+
+[00:18:37.200 - 00:18:43.440] Jack can talk a little bit about this more. But you know, when we we do have things like, you know,
+
+[00:18:43.440 - 00:18:53.040] NSRL particles accelerators in the RBO. But because they're one of a kind. And so we don't make a class
+
+[00:18:53.040 - 00:18:58.800] for those things we have a particle accelerators and put them in and characterize them in the
+
+[00:18:58.800 - 00:19:06.480] ontology that way. But I don't know how many of your all your data is going to be, you know,
+
+[00:19:06.480 - 00:19:15.440] have these common commonalities to where doing class modeling is valuable versus having individual
+
+[00:19:16.560 - 00:19:22.000] unique things where, you know, then you could put those unique things into an apology. But
+
+[00:19:22.560 - 00:19:33.440] I don't know that I have a sense of your total scope of that split. Yeah. And this that I think
+
+[00:19:33.440 - 00:19:39.120] would I think it would be a deep dive. I think it would be for me to understand quite a lot more
+
+[00:19:39.120 - 00:19:49.120] about how to. Yeah, I think. Yeah. Thanks, Dan, that that makes that that helps put things in
+
+[00:19:49.120 - 00:19:55.680] perspective a bit about how much more we discuss. Go ahead, Aaron. From what I've seen from the
+
+[00:19:55.680 - 00:20:01.680] the TechPort data is that they mostly fall into pretty, pretty standard categories, right? There's
+
+[00:20:01.680 - 00:20:08.960] there's sensors that sense things. And so the data will be like time series, or there are, you know,
+
+[00:20:08.960 - 00:20:15.440] or it'll be something like growth chambers, which is more niche, but their output is crop, right?
+
+[00:20:16.000 - 00:20:20.960] Crop water, you know, they have pretty standard ins and outs, right? You know, if it's an
+
+[00:20:20.960 - 00:20:28.160] Eclist tech, it's taking in some waste and producing some, you know, removed waste or processed puck,
+
+[00:20:28.800 - 00:20:35.280] yeah, or whatever, you know, poop or whatever, right? So I think those like the particle
+
+[00:20:35.280 - 00:20:39.600] accelerators would be the rare ones. And I don't know, I don't I didn't think that would be in
+
+[00:20:39.600 - 00:20:44.880] this list. No, yeah, I think there's something interesting, though, to be said about different,
+
+[00:20:44.880 - 00:20:49.360] like you can have a growth chamber on ISS that's capable, you know, that's interfaces with ISS,
+
+[00:20:49.360 - 00:20:53.680] you can also have a growth chamber that is a small sat. And does it go into the small sat's
+
+[00:20:53.680 - 00:20:59.040] category, does go into the growth, you know, chamber category, and if it grows mice versus it
+
+[00:20:59.040 - 00:21:05.680] grows plants, you know, so I think there's that has been what has we have been struggling with when
+
+[00:21:05.680 - 00:21:10.160] essentially this is because we have one field that is category. And the question is, what do you
+
+[00:21:10.160 - 00:21:18.560] put there? Could we make that one field be more useful to people and describe more things about
+
+[00:21:18.560 - 00:21:29.600] what an instrument is and does. But it might be an exercise in in structuring knowledge that is
+
+[00:21:29.600 - 00:21:34.400] not as useful as some of the other things that we can work on with this database is
+
+[00:21:34.800 - 00:21:37.440] my current thought.
+
+[00:21:39.840 - 00:21:44.720] Do you want to separate what is a growth chamber and what goes and what is like a small satellite,
+
+[00:21:44.720 - 00:21:53.200] right? So like small satellite versus ISS rack, those are like a rack would be equivalent to
+
+[00:21:53.200 - 00:21:59.440] whatever caging unit you have in a small in a CubeSat, right? So you have three different
+
+[00:21:59.440 - 00:22:05.520] categories of items here that am I misunderstanding this? So you have would have you have whatever
+
+[00:22:05.520 - 00:22:12.320] flies, whatever you put in the flight hardware to stabilize an experimental apparatus, and then
+
+[00:22:12.320 - 00:22:19.120] you have your experimental apparatus. Yeah, and it's and we have for instance struggled for for
+
+[00:22:19.120 - 00:22:24.640] small sats, so whether to put the whole small sat in there as an item or just the payload and in
+
+[00:22:24.640 - 00:22:29.360] what situations can you separate out the payload from the small satellite, right? I think we have
+
+[00:22:29.360 - 00:22:38.560] some entrance entries where it's the whole small sat is in the database. And if you separate them out,
+
+[00:22:39.520 - 00:22:44.720] do you also if you just put the payload of the small sat, do you then also have an entry for the
+
+[00:22:45.600 - 00:22:53.440] spacecraft or not? Tony. Yeah, exactly right person's talk about this.
+
+[00:22:54.880 - 00:23:01.680] Sorry, sorry, I was a bit late this morning. But yeah, I would I would say there's I can't see a
+
+[00:23:01.680 - 00:23:08.320] reason not to separate out the payload. When we develop and fly these things, the bus is very much
+
+[00:23:08.320 - 00:23:13.840] distinct from the payload. And although there's team overlap, sort of different groups work on the
+
+[00:23:13.840 - 00:23:19.200] bus and the payload and the buses, everything is the spacecraft, you know, it's the it's the one
+
+[00:23:19.200 - 00:23:25.920] new version of the ISS. And then and then there's a two you payload, which is the instrument. So I
+
+[00:23:25.920 - 00:23:33.280] don't see a reason in this particular database to include the small sat bus per se. Maybe someone
+
+[00:23:33.280 - 00:23:37.600] else can think of a reason. But I think that the CubeSat payloads, of course, are highly relevant
+
+[00:23:37.600 - 00:23:44.320] because they can be reformatted to fly on almost any other platform as well. With sometimes with
+
+[00:23:44.320 - 00:23:50.560] minimal modifications. So I think it's the payload that we want to focus on. Yeah. And I think that
+
+[00:23:50.560 - 00:23:56.560] does will require us to revisit some of the small sat entries. True. You have a point because yeah.
+
+[00:23:57.440 - 00:24:02.400] Anyway, so that was just one example. Some of the questions that have brought, you know, brought
+
+[00:24:02.400 - 00:24:09.440] this up. And but it sounds as though, you know, I'm still leaning toward, let's there may be other
+
+[00:24:09.520 - 00:24:15.280] things for this group to focus on. And I know we have reached nine o'clock. So I'm able to stay for a
+
+[00:24:15.280 - 00:24:19.680] few more minutes if anyone wants to chat about putting their names down for some of these specific
+
+[00:24:19.680 - 00:24:27.040] subgroup projects. And and then I will also then post on the on the forum space and send out some
+
+[00:24:27.040 - 00:24:31.280] emails to get recruit people for the subgroup projects. I think it sounds like we're going to
+
+[00:24:31.280 - 00:24:36.080] still have the manuscript, adopt an instrument group, and then and then maybe something having to do
+
+[00:24:36.080 - 00:24:45.680] with data formatting usability and standardization. So here for anyone who wants to raise their hand
+
+[00:24:45.680 - 00:24:50.160] to volunteer for things or chat for the last couple minutes about any of these topics.
+
+[00:24:51.200 - 00:24:59.760] Otherwise, thank you. Yes, Tony, go ahead. Okay, I will volunteer. Aaron said fluids. So first of
+
+[00:24:59.760 - 00:25:06.240] all, I volunteered to help Aaron with fluids, but I was going to volunteer more generally for
+
+[00:25:06.240 - 00:25:14.640] for small payloads for chemistry and biology experiments. Okay. Small maybe, should I say small
+
+[00:25:14.640 - 00:25:19.440] automated payloads. In other words, you know, the stuff that I know best, and I think I'm going to be
+
+[00:25:19.440 - 00:25:24.400] most helpful with her the payloads that operate themselves, the ones that are operated by crew,
+
+[00:25:24.960 - 00:25:32.800] I have pretty minimal experience with the knowledge of. Okay. Thank you, Tony. That makes perfect sense.
+
+[00:25:39.040 - 00:25:47.440] And if anyone else is, yes, Francesco. Hi. Yes, I'm really speedy. I think so. There's three,
+
+[00:25:48.160 - 00:25:53.920] three parts that we have to focus on. One of the first is the data standards,
+
+[00:25:53.920 - 00:26:00.000] because I think it's really essential in some sort of way. The second one, I think when we talk
+
+[00:26:00.000 - 00:26:06.720] about ontology, I think it's also important because when we have to plan or to design some new
+
+[00:26:07.520 - 00:26:13.360] instruments, it's also important to categorize it and to understand what food, what to insert,
+
+[00:26:13.360 - 00:26:21.600] you know, the physical dimension and all the space that they have to have inside the tools.
+
+[00:26:22.320 - 00:26:29.520] And one thing I was thinking about is also, is that it possible also to insert in the data sets
+
+[00:26:30.320 - 00:26:37.120] some sort of integration with AI about the analysis or the integration of the data sets?
+
+[00:26:39.520 - 00:26:48.640] So AI based analysis? Yeah, because I think sometimes it's most easiest, you know, to interrogate
+
+[00:26:48.640 - 00:26:56.480] just the data sets in a sort of discussion and not just to compile the data sets and then
+
+[00:26:56.480 - 00:27:03.120] understand what data they give me back and make the comparison. I think this can also be made by
+
+[00:27:03.120 - 00:27:10.240] AI itself, the comparison. And also if it's, if that's tools fits in what I need.
+
+[00:27:10.800 - 00:27:17.120] Absolutely. So Francesca, I then I will look, you know, I'll count who's part of,
+
+[00:27:17.680 - 00:27:22.320] so the journal manuscript will be partly around just writing the thing and getting it out there
+
+[00:27:22.320 - 00:27:28.560] to just but then also about potential analyses that might be incorporated. And so and so I think
+
+[00:27:28.560 - 00:27:32.960] I'm gonna understand you're interested in data standards and then also in potentially doing an
+
+[00:27:32.960 - 00:27:40.400] analysis and that, you know, and we'll see where that goes. Yeah. Yeah. Okay. Thank you. George.
+
+[00:27:42.480 - 00:27:48.240] I think this may be too much of an ask, but given that you have the different hardware
+
+[00:27:48.800 - 00:27:55.200] and I don't know how feasibility it would be good to have actually sample data that has been
+
+[00:27:55.200 - 00:28:04.240] generated from those hardware. And then that way, you know, we can figure out which software can
+
+[00:28:04.240 - 00:28:12.240] actually be used to analyze the set data once that's actually obtained. Now, some of that data
+
+[00:28:12.240 - 00:28:18.240] will be available in the database already as part of the data that was generated by the missions.
+
+[00:28:18.240 - 00:28:25.120] But I don't know, Ryan probably knows what's out there more. But I think it's important to have
+
+[00:28:25.120 - 00:28:32.240] like what the standard output would be from these machines, this hardware, whatever comes out, you
+
+[00:28:32.240 - 00:28:39.680] know, if it's sequencing, it might be a pod file or it's a little text file that has some
+
+[00:28:39.680 - 00:28:47.840] structure or if it's an XML file, and then we need done the breakdown of what those terms mean. So
+
+[00:28:48.080 - 00:28:56.160] yeah. And this is important in connecting the data to the analysis and anything downstream from there.
+
+[00:28:57.040 - 00:29:02.240] Yes. So this is, and I know that Aaron has previously talked about, oh, can we get folks to
+
+[00:29:02.240 - 00:29:07.680] upload CAD files? I could, so I think we could have this list of other things which might be in the
+
+[00:29:07.680 - 00:29:14.080] future implemented fields where, you know, providers of hardware have the option of adding
+
+[00:29:14.080 - 00:29:19.760] other attachments to their hardware entry, which could be design files, could be sample data,
+
+[00:29:19.760 - 00:29:25.120] could be things like that, right? And I think it will be hard to require that all entries have that,
+
+[00:29:25.120 - 00:29:31.200] but absolutely, I think we can add it as a really useful thing that we can encourage folks to contribute.
+
+[00:29:31.200 - 00:29:33.360] Yeah. Okay.
+
+[00:29:37.120 - 00:29:42.720] Are there any last comments? Anyone else who wants to volunteer for things? Okay, I'll put
+
+[00:29:44.480 - 00:29:49.120] see. I've got some things in the chat. Great. Okay, thank you.
+
+[00:30:03.920 - 00:30:12.240] Okay. And absent any other comments, then I do want to, you know, be respectful of your time,
+
+[00:30:12.240 - 00:30:17.280] and I really, really appreciate everyone's participation today. I will send out more
+
+[00:30:17.280 - 00:30:24.640] advance notice before our next meeting, we'll set up a standing monthly meeting, and for those of
+
+[00:30:24.640 - 00:30:28.080] you who are interested in these small projects, we'll start getting you engaged soon.
+
+[00:30:32.160 - 00:30:38.080] Ryan, anything else? No, that's great. It's going to take a little bit of time. Yeah.
+
+[00:30:38.080 - 00:30:40.560] Yeah.
+
+[00:30:44.240 - 00:30:51.760] Okay. Well, thank you, everybody. Awesome, Erin. I'll make sure to keep you dialed in.
